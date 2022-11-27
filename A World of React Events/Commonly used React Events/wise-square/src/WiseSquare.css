@@ -6,6 +6,6 @@
     margin: auto;
 }
 
-.WiseSquare :hover {
+.WiseSquare:hover {
     background-color: aqua;
 }
