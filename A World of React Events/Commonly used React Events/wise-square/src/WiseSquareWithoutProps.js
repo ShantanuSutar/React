@@ -18,9 +18,10 @@ class WiseSquareWithoutProps extends Component {
         console.log(messages[rIndex]);
     }
     render() {
-        return <div className='WiseSquare' onMouseEnter={this.dispenseWisdom.bind(this)}>
+        return <div className='WiseSquare' onMouseEnter={() => this.dispenseWisdom()}
+        >
             😀
-        </div>;
+        </div >;
     }
 }
 export default WiseSquareWithoutProps;
