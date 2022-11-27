@@ -4,6 +4,7 @@ import WiseSquare from './WiseSquare';
 import AnnoyingForm from './AnnoyingForm';
 import CopyDemo from './CopyDemo';
 import WiseSquareWithoutProps from './WiseSquareWithoutProps';
+import ExperimentalSquare from './ExpeimentalSquare';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,8 @@ function App() {
       <WiseSquare />
       <br></br>
       <WiseSquareWithoutProps />
+      <br></br>
+      <ExperimentalSquare />
       <AnnoyingForm />
       <CopyDemo />
 
