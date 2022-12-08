@@ -25,9 +25,11 @@ class MultipleForm extends Component {
                     Multiple Form Demo
                 </h1>
                 <form onSubmit={this.handleSubmit}>
+                    <label htmlFor='username'>Username</label>
                     <input
                         type='text'
                         name='username'
+                        id='username'
                         value={this.state.username}
                         onChange={this.handleChange}>
                     </input>
